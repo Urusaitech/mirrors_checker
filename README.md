@@ -1,5 +1,7 @@
 # mirrors_checker
-Checks availability of a given list of mirrors in most of the countries using SmartProxy.
+Checks availability of a given list of mirrors in most of the countries using SmartProxy.  
+  
+_Linted with flake8 and black_
 
 # How to run
  
@@ -17,3 +19,4 @@ In both use cases script saves results of its work to py_log.log
 # Example of configs.py
 
 ![image](https://user-images.githubusercontent.com/100962655/221351771-36e4c872-008b-473a-a376-d31456fbc09b.png)
+
