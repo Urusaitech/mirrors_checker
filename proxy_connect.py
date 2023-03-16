@@ -5,13 +5,13 @@ from requests import Response
 from configs import username, password, mirrors
 from countries import get_domain, choose_port
 
-# logging to file
-logging.basicConfig(
-    level=logging.INFO,
-    filename="py_log.log",
-    filemode="a",
-    format="%(asctime)s %(message)s",
-)
+# # logging to file
+# logging.basicConfig(
+#     level=logging.INFO,
+#     filename="py_logg.log",
+#     filemode="a",
+#     format="%(asctime)s %(message)s",
+# )
 
 
 def set_connection(country, url) -> Response:
